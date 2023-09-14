@@ -1,41 +1,26 @@
-body {
-    background-color: rgba(255, 255, 255, 0.5);
-    overflow: overlay;
+.continer {
     display: flex;
 }
 
-iframe {
-    margin-top: 5%;
-    margin-left: 10%;
-    width: 90%;
+.headNav iframe {
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 1450px;
     height: 1000px;
     border: transparent;
     overflow: hidden;
+
 }
 
-.headNav {
-    background-color: black;
-    color: white;
-}
-
-.sideInnerNav {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+.sideNav iframe {
+    margin-top: 66px;
+    margin-left: -1455px;
     height: 100%;
-    width: 200px;
-    background-color: black;
-    color: wheat;
-
 }
 
-.navmain {
-    display: flex;
-}
-
-.main {
-    width: 100%;
-    margin-left: -120px;
-
+.main iframe {
+    margin-top: 75px;
+    margin-left: -1198px;
+    width: 1200px;
+    height: 100%;
 }
